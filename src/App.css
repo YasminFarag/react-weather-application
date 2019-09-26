@@ -1,0 +1,79 @@
+html , body{
+  /* height: 100vh; */
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+
+
+
+}
+
+
+body{
+  text-align: center;
+  background-image: url(./images/water-blue-ocean.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+ 
+ 
+
+}
+
+
+.App{
+  /* height: 100vh; */
+  /* width:100%; */
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+  padding:30px;
+ 
+  
+}
+.clear{
+  height: 100vh; 
+  background-image: url(./images/sunny.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.clouds{
+  height: 100vh;
+  background-image: url(./images/clouds.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat
+}
+.Rain, .Mist, .Drizzle, .light, .moderate, .shower {
+  height: 100vh;
+  background-image: url(./images/cloudy.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat
+}
+.thunderstorm{
+  height: 100vh;
+  background-image: url(./images/lightning.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat
+  
+}
+.Snow{
+  height:100vh;
+  background-image: url(./images/snowy.jpg);
+  background-size: cover;
+  background-repeat: no-repeat
+}
+
+/* Forecasting component */
+
+
+button,
+input
+
+{
+  color: gray;
+  border-radius: 10px;
+ 
+}
+form{
+  margin:10px;  
+}
